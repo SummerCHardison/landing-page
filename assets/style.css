@@ -1,0 +1,23 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header{
+    background-color: beige;
+    position: fixed;
+    top: 0px;
+    left: 650px;
+}
+
+#image{
+    position: relative;
+    top: 100px;
+    left: 550px;
+
+}
+
+#text{
+    position: relative;
+    top: 100px;
+    left: 565px;
+}
