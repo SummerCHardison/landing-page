@@ -1,22 +1,53 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>landing-page</title>
-        <link rel="stylesheet" href="./assets/style.css">
-    </head>
 
-    <body>
-        <header>
-            <h1>My New Website</h1>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <title>landing-page</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
 
-        <section>
-            <img id="image" src="./assets/image-1.png" alt="Colorful box with text that reads coming soon." />
+<body>
+    <header>
+        <nav class="text-right">
+            <ul>
+                <li> <a href="https://github.com/SummerCHardison?ocid=AIDcmmcwpj1e5v_SEM__k_Cj0KCQjwu8uyBhC6ARIsAKwBGpR9ILMJIvKRk-5vCpEqDF3MT3XdYU3M_jQVt-wVU8hvHzFURDf1JFIaAmHsEALw_wcB_k_">Github</a></li>
+                <li> <a href="#">Portfolio</a></li>
+                <li> <a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="text-center">My New Website</h1>
+        <figure>
+            <img src="./assets/image-1.png" alt="Colorbox with text in center that reads coming soon">
+            <figcaption class="text-center">This website gives you links to my GitHub and portfolio, as well as allows you to contact me.</figcaption>
+        </figure>
+        <section id="contact">
+            <h2 class="text-center">Contact Me</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label class="text-right" for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                        <label class="text-right" for="email">Email:</label>
+                        <input type="text" id="email" name="user-email">
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <button type="submit">SEND</button>
+                </div>
+            </form>
         </section>
+    </main>
 
-        <section>
-            <p id="text">This website gives you links to my contact information</p>
-        </section>
-    </body>
+    <footer class="text-center">
+        © 2024 My New Website Productions
+    </footer>
+
+</body>
+
 </html>
